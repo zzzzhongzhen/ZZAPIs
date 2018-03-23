@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZZAPIs_Example' do
+  pod 'ZZAPIs', :path => '../'
+
+  target 'ZZAPIs_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
