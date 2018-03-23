@@ -13,6 +13,8 @@
 #import "APIRequest.h"
 #import "APIRequestProtocol.h"
 #import "APIResponseProtocol.h"
+#import "DBManager.h"
+#import "FFHelper.h"
 #import "FFReformProtocol.h"
 #import "NetworkHelper.h"
 
