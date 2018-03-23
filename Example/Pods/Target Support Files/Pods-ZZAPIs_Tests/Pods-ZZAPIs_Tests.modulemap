@@ -1,0 +1,6 @@
+framework module Pods_ZZAPIs_Tests {
+  umbrella header "Pods-ZZAPIs_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
