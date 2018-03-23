@@ -1,5 +1,27 @@
 PODS:
-  - ZZAPIs (1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ZZAPIs (1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - ZZAPIs (from `../`)
@@ -9,7 +31,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZZAPIs: 085e822af80197b5e53b21b8ab8251c3b14c2673
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  ZZAPIs: 3115dec162ad489f1b3d22cf57853d2c3c386572
 
 PODFILE CHECKSUM: 76d5be51a362a32c76103bedbcaaa36d767d2460
 
